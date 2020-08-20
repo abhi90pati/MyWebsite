@@ -1,0 +1,108 @@
+/*-------------------------------------------------------Tags-------------------------------------------------------*/
+/*html {
+  font-family: sans-serif;
+}
+
+body {
+  background: #eaf6f6;
+}*/
+a {
+  color: #FFFFFF
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: black;
+}
+body {
+  background-color: #FFFFFF;
+}
+
+center {
+  list-style-position: inside;
+}
+
+hr {
+  background-color: ##FFFFFF;
+  border-top: 5px dotted #84a9ac;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 5%;
+}
+
+h1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+p {
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+/*-------------------------------------------------------Classes-------------------------------------------------------*/
+.bgimg1 {
+  background-image: url("absolete.jpeg");
+  min-height: 100%;
+}
+
+.bgimg2 {
+  background-image: url("absolete2.jpeg");
+  min-height: 100%;
+}
+
+.bgimg3 {
+  background-image: url("img2.jfif");
+  min-height: 100%;
+}
+
+.bgimg4 {
+  background-image: url("img1.jfif");
+  min-height: 100%;
+}
+
+.bgimg5 {
+  background-image: url("img4.jpg");
+  min-height: 30%;
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+}
+
+.bdr {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+}
+
+.profPic {
+  height: 150px;
+}
+
+/*-------------------------------------------------------IDs-------------------------------------------------------*/
